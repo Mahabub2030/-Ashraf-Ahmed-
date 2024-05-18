@@ -463,18 +463,20 @@ body.active { overflow: hidden; }
 main { overflow-x: hidden; }
 
 .hero {
-  min-height: 100vh;
+  min-height: 10vh;
+  padding: 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding-top: 115px;
+  margin-top: 125px;
   margin-bottom: var(--section-padding);
 }
 
 .hero-banner {
-  max-width: 500px;
-  width: 125%;
+  max-width: 50px;
+  width: 105%;
   margin-bottom: 30px;
 }
 
