@@ -67,9 +67,6 @@
 }
 
 
-
-
-
 /*-----------------------------------*\
  * #THEME COLORS
 \*-----------------------------------*/
@@ -99,8 +96,6 @@ body.light_theme {
   --shadow-1: 10px 10px 40px var(--card-shadow);
 
 }
-
-
 
 
 
@@ -172,39 +167,6 @@ body.active { overflow: hidden; }
 
 /* rrrrr */
 
-.resume-column-title {
-  color: #474747;
-  font-size: 30px;
-  font-weight: 700;
-}
-
-.resume-container {
-  display: flex;
-  gap: 50px;
-}
-
-.resume-item-title {
-  color: #474747;
-  font-size: 25px;
-  font-weight: 700;
-  margin-bottom: 10px;
-}
-
-.resume-item-institute {
-  margin-bottom: 20px;
-  margin-top: 0px;
-}
-
-.resume-item-institute,
-.resume-item-description {
-  color: #757575;
-}
-
-.resume-container hr {
-  margin: 30px;
-}
-
-/* rrrrr */
 
 /*-----------------------------------*\
  * #REUSED STYLE
@@ -681,8 +643,9 @@ main { overflow-x: hidden; }
 .skill-card {
   position: relative;
   background: var(--bg-secondary);
-  width: 80px;
-  height: 80px;
+  width:800px auto;
+  padding:auto;
+  margin:20px 30px auto;
   display: grid;
   place-items: center;
   border-radius: var(--radius-12);
