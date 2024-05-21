@@ -644,7 +644,7 @@ main { overflow-x: hidden; }
   position: relative;
   background: var(--bg-secondary);
   width:800px auto;
-  padding:auto;
+  padding:10px;
   margin:20px 30px auto;
   display: grid;
   place-items: center;
