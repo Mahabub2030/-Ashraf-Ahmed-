@@ -165,7 +165,7 @@ body.active { overflow: hidden; }
 
 
 
-/* rrrrr */
+
 
 
 /*-----------------------------------*\
@@ -459,8 +459,8 @@ body.active { overflow: hidden; }
 main { overflow-x: hidden; }
 
 .hero {
-  min-height: 10vh;
-  padding: 50px;
+  min-height: 70vh;
+  padding:20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -471,8 +471,8 @@ main { overflow-x: hidden; }
 }
 
 .hero-banner {
-  max-width: 50px;
-  width: 105%;
+  /* max-width:px; */
+  width:50%;
   margin-bottom: 30px;
 }
 
